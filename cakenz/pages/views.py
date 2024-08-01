@@ -10,3 +10,15 @@ from django.http import JsonResponse
 
 def index(request):
     return render(request, 'pages/index.html')
+
+
+def about(request):
+    return render(request, 'pages/about.html')
+
+
+def service(request):
+    return render(request, 'pages/service.html')
+
+
+def team(request):
+    return render(request, 'pages/team.html')
